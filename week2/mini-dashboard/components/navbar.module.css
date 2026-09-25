@@ -1,0 +1,9 @@
+navbar {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #c9d2d0;
+}
