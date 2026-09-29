@@ -3,12 +3,13 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: rgb(247, 246, 246);
   position: relative;
   min-height: 100vh;
   padding: 0;
   margin: 0;
 }
+
 
 main {
   padding: 0 20px 40px 20px;
@@ -16,8 +17,25 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: monospace;
 }
 
+div {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+}
+
+p {
+  margin-top: 1px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.course-list >li{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* CSS for navigation bar */
 
 .navbar {
@@ -33,7 +51,7 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: black;
+  background-color: rgb(42, 100, 95);
   color: white;
   padding: 0px 0px;
 
@@ -57,13 +75,25 @@ main {
   letter-spacing: 2px;
 }
 
+.navbar a:hover{
+  color:pink;
+  text-decoration: none;
+}
+
+
+/*label*/
+label {
+  display:block;
+  margin-bottom: 8px;
+
+}
 /* CSS for page footer */
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(42, 100, 95);
   color: white;
   position: absolute;
   bottom: 0;
