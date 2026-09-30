@@ -106,7 +106,4 @@ label {
 .project{
   display: flex;
   align-items: center;
-  border-width: 5px;
-  border-color: cadetblue;
-
 }
